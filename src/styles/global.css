@@ -1,6 +1,61 @@
 /* ensure all pages have Bootstrap CSS */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
-.pointer{
-	cursor: pointer;
+.pointer {
+  cursor: pointer;
+}
+
+.description {
+  font-size: 12px;
+  ;
+}
+
+.category {
+  font-size: 12px;
+}
+
+.menu {
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.active-menu {
+  background-color: greenyellow;
+}
+
+.ItemContainer {
+  padding: 10px 0;
+}
+
+.buttonQtyContainer {
+  display: flex;
+  width: 100px;
+}
+
+.text-12 {
+  font-size: 12px;
+}
+
+.text-13 {
+  font-size: 13px;
+}
+
+.text-14 {
+  font-size: 14px;
+}
+
+.summaryContainer {
+  margin-top: 20px;
+  background-color: gainsboro;
+  padding: 8px;
+  ;
+}
+
+.sidebar {
+  background-color: aliceblue;
+  padding-top: 10px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
